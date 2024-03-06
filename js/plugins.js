@@ -5712,7 +5712,7 @@ SOFTWARE.
           this.iosFix &&
           !this.$element.is("img") &&
           this.$element.css({
-            backgroundImage: "url/("+this.imageSrc + ")",
+            backgroundImage: "url("+this.imageSrc + ")",
             backgroundSize: "cover",
             backgroundPosition: this.position,
           }),
@@ -5724,7 +5724,7 @@ SOFTWARE.
           this.androidFix &&
           !this.$element.is("img") &&
           this.$element.css({
-            backgroundImage: "url/("+this.imageSrc + ")",
+            backgroundImage: "url("+this.imageSrc + ")",
             backgroundSize: "cover",
             backgroundPosition: this.position,
           }),

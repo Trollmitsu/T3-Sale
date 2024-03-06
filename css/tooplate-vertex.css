@@ -612,7 +612,7 @@ figure.effect-goliath:hover p {
     .tm-section { flex-direction: column-reverse; }
 
     .tm-section-col {
-        flex: 100%;
+        flex: 0 0 100%;
         width: 100%;
     }
 
